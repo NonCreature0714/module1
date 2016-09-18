@@ -8,39 +8,48 @@
   <!-- This is where your link tag goes when linking to an external style sheet. -->
 
   <!--This is the format you will use when entering JavaScript -->
-  <script type="text/javascript">
-    //TODO: put in preload script.
+  <script type="text/javascript" src="prices.hourly.js">
+  </script>
+  <script type="text/javascript" src="prices.project.js">
   </script>
 
 </head>
 
 <body>
   <header>
+    <img src="noncreature0714AsterLogo.png" alt=""/>
     <h1>Develop With Bill</h1>
   </header>
   <nav>
     <b>
       <a href="project1.html">Home</a> &nbsp;
-      <a href="aboutme.html">About Me</a>
+      <a href="aboutme.html">About Me</a> &nbsp;
       <a href="costs.html">Hire</a> &nbsp;
       <a href="projects.html">Projects</a> &nbsp;
       <a href="contact.html">Contact</a>
     </b>
   </nav>
   <main>
-    <h2>What I Do For You</h2>
+    <h2>Costs For Your Needs</h2>
     <p>
-      <!--TODO: intro-->
+      Until an effective barter system exists, we'll just have to settle for money.
     </p>
     <p>
-      <!--TODO: iOS-->
-      <!--TODO: Android-->
-      <!--TODO: web-->
-      <!--TODO: micro sytems-->
+      <script type="text/javascript">
+        document.write("<h3>Hourly Rates</h3>");
+        document.write("<ul>");
+        document.write("<li>iOS Hourly Rate: $" + iOSPerHour.toFixed(2) + "</li>");
+        document.write("<li>Android Hourly Rate: $" + androidDevPerHour.toFixed(2) + "</li>");
+        document.write("<li>GameDev Hourly Rate: $" + gameDevHourly.toFixed(2) + "</li>");
+        document.write("<li>WebDev Hourly Rate: $" + webDevPerHour.toFixed(2) + "</li>");
+        document.write("<li>Micro Systems Hoursly Rate: $" + microSystemsPerHour.toFixed(2) + "</li>");
+        document.write("<li>Marketing Consultation Hourly Rate: $" + marketingHourly.toFixed(2) + "</li>");
+        document.write("</ul>");
+      </script>
     </p>
 
     <!-- external javascript for validation -->
-    <script type="text/javascript" src="validation.js">
+    <script type="text/javascript" src="../validation.js">
     </script>
   </main>
   <footer>

@@ -1,5 +1,4 @@
-//per Project
-var makeMeAnApp = 60000;
-var consultOnMyApp = 20000;
-var designMyAssets = 60000;
-var fullPackage 140000;
+var makeMeAnApp = 100000;
+var makeMeAGame = 200000;
+var makeMeAssets = 50000;
+var marketingProject = 40000;
